@@ -1,0 +1,21 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6 offset-3">
+      <%=form_for "number_to_word", url: number_convert_welcome_index_path do |f|%>
+        <h4><%=t('number_to_word_conversion')%></h4>
+        <div class="mb-3">
+          <%=f.label t(:enter_number),class: 'control-label'%>
+          <%=text_field_tag :number, params[:number], class: 'form-control', required: true%>
+        </div>
+         <div class="mb-3">
+           <%=f.submit t(:convert_to_word), class: 'btn btn-primary'%>
+         </div>
+      <%end%>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 offset-3">
+      <h3><%=@answer%></h3>
+    </div>
+  </div>
+</div>
