@@ -30,6 +30,14 @@ Things you may want to cover:
  RUN rspec in the root directory to test the application
  
  
+     7       === seven
+    42      === forty-two
+    1999    === one thousand nine hundred and ninety-nine
+    2001    === two thousand and one
+    17999   === seventeen thousand nine hundred and ninety-nine
+    1300420 === one million three hundred thousand four hundred and twenty
+ 
+ 
  
   
   
